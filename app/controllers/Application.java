@@ -9,9 +9,11 @@ import java.util.*;
 public class Application extends Controller {
 
     public static void index() {
-    
+    	Logger.debug("test", 0);
     	render();
     
     }
+    
+  
 
 }
